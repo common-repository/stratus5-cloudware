@@ -1,0 +1,474 @@
+#dim
+{
+      height:100%;
+      width:100%;
+      position:fixed;
+      left:0;
+      top:0;
+      z-index:1 !important;
+      background-color:black;
+      opacity: 0.75;      
+}
+
+.s5mktloader {
+  position: absolute!important;
+  width: 500px !important; 	 	  	 	  	 	 	  	 
+  opacity:1.0 !important; 	 	
+  display: none;
+  z-index: 9999 !important;
+  background: #A0D8F1 !important; 	 	 
+  border:1px  solid #efefef !important; 	 	 
+  padding: 20px !important; 	 	 
+  opacity:1.0 !important; 	 	
+  font-size: 14px !important;
+  background-image: url(../images/bg.jpg) !important;
+  border-radius: 4px !important;
+  box-shadow: 2px 1px 6px 4px #dddddd !important;
+  height: auto !important;
+}
+
+#s5-loading-gif {
+  display: none;
+  z-index: 667999 !important;
+  position: absolute!important;
+}
+
+
+.s5FormButtonSubmit {
+  width: 100%; 
+  text-align: center; 
+  margin-top:20px;	
+}
+
+.s5Error
+{
+  font-size: 10px;
+  border: 2px red solid;
+  padding:2px;
+  background-color: #F08080;
+}
+
+.s5ErrorMsg {
+  display: none; 
+  margin-top: 5px; 
+  margin-bottom:7px;	
+}
+
+.s5Success
+{
+  font-size: 10px;
+  border: 2px blue solid;
+  padding:2px;
+  background-color: #2EA2CC;
+}
+
+
+.s5Formloader {
+  position: absolute !important; 
+  width: 450px !important; 	 	  	 	 
+  background: #A0D8F1 !important; 	 	 
+  border:1px  solid #888888 !important; 	 	 
+  padding: 20px !important; 	 	 
+  opacity:1.0 !important; 	 	
+  display:none;
+  font-size: 13px !important;
+  z-index: 9998 !important;
+  background-image: url(../images/bg.jpg) !important;
+  border-radius: 4px !important;
+  box-shadow: 2px 1px 6px 4px #AAAAAA !important;
+  box-sizing: border-box;
+}
+
+#linksdialog {
+  position: absolute !important;
+  width: 465px !important; 	 	  	 	 
+  background: #A0D8F1 !important; 	 	 
+  border:1px  solid #888888 !important; 	 	 
+  padding: 20px !important; 	 	 
+  padding-bottom: 45px !important;
+  opacity:1.0 !important; 	 	
+  font-size: 14px !important;
+  z-index: 9997 !important;
+  background-image: url(../images/bg.jpg) !important;
+  border-radius: 4px !important;
+  box-shadow: 2px 1px 6px 4px #AAAAAA !important;
+  top:150px !important;
+  height: auto !important;
+  font-size:14px;
+  display: none;
+  font-family: Arial;
+}
+
+#linksloader {
+  width:100%; 
+  text-align: center; 
+  display:none;	
+}
+
+.s5formLine
+{
+  height:30px;
+  vertical-align: middle;
+  display: block;
+}
+
+#s5FormClose
+{
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.s5textfield
+{ 
+  height: 45px !important;
+  padding: 0px 0px 0px 14px !important;
+  width: 100% !important;
+  font-size: 15px !important;
+  border: 1px solid #d2d2d2 !important;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*
+input[type="email"], input[type="password"]
+{ 
+  height: 45px !important;
+  padding: 0px 0px 0px 14px !important;
+  width: 100% !important;
+  font-size: 15px !important;
+  border: 1px solid #d2d2d2 !important;
+  border-radius: 4px;
+}
+*/
+
+.s5label
+{
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+
+
+.s5partnerSignupForm {
+  position: fixed ;
+  width: 450px ;           
+  background: #A0D8F1 ;      
+  border:1px  solid #efefef ;      
+  padding: 20px ;      
+  opacity:1.0 ;     
+  display:none;
+  font-size: 13px ;
+  z-index: 9998 ;
+  background-image: url(../images/bg.jpg) ;
+  border-radius: 4px ;
+  box-shadow: 2px 1px 6px 4px #dddddd ;
+}
+
+.s5FormCloseWrap {
+  text-align: right; 
+  margin-top: -5px;
+}
+
+.s5FormHeader {
+  width:100%; 
+  text-align: center; 
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-top: -20px; 
+  margin-bottom:15px;
+  border-bottom:1px solid #cccccc; 
+  padding-bottom:10px; 
+  color: #202020; 
+}
+
+.s5domaincheckerloaderWrapper {
+  position: relative; 
+  line-height:22px;
+  margin-bottom:7px;  
+}
+
+#domaincheckerloader {
+  display:none; 
+  position: absolute; 
+  top: 10px; 
+  z-index:10000; 
+  right:10px; 
+  
+}
+
+.s5ImgLoader {
+  width:18px; 
+  padding-bottom: 4px
+}
+
+.s5firstname {
+  display: inline-block; 
+  width:200px; 
+  margin-right:4px;
+}
+
+.s5lastname {
+  display: inline-block; 
+  width:200px;
+}
+
+.s5emailcheckerloader {
+  position:relative; 
+  line-height:22px;
+  margin-bottom:7px;  
+}
+
+#s5emailcheckerloader {
+  display:none; 
+  position: absolute; 
+  top: 17px; 
+  z-index:10000; 
+  right:10px; 
+}
+
+#email {
+  margin-top:7px;
+}
+
+#errormsgMail {
+  display: none; 
+  margin-top: 5px; 
+  margin-bottom:7px;  
+}
+
+.s5hint {
+  font-size: 8pt; 
+}
+
+.s5ForCredidCardHeader {
+  width:100%; 
+  text-align: center; 
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-top: 25px; 
+  margin-bottom:5px;
+  border-top:1px solid #cccccc; 
+  padding-bottom:0px; 
+  color: #202020; 
+}
+
+.s5cardnumber {
+  display: inline-block; 
+  width:200px; 
+  margin-right:4px; 
+}
+
+.s5creditexp {
+  display: inline-block; 
+  width:70px; 
+}
+
+.s5creditcvn {
+  display: inline-block; 
+  width:50px; 
+}
+
+#errormsgCreditCard {
+  display: none; 
+  margin-top: 5px; 
+  margin-bottom:7px;  
+}
+
+.s5mktloaderbold {
+  text-align: center; 
+  font-weight: bold;  
+}
+
+.s5mktloadercnterhead {
+  text-align: center; 
+  margin-bottom: 15px;
+}
+
+.s5mktloadercnter {
+  text-align: center; 
+}
+
+.adminwrapper {
+  padding:5px; 
+  display: inline-block; 
+  width:42%;
+}
+
+.s5plugin-descr {
+  width:100%; 
+  font-size: 18px; 
+  font-weight: bold;	
+}
+
+
+.api-settings-ok {
+  font-size: 12px;  
+  margin-bottom: 10px;
+  margin-top:10px; 
+  border: 2px #1EA1CC solid;
+  padding:2px;
+  background-color: #2EA2CC; 
+  color: white;	
+}
+
+.api-settings-error {
+  font-size: 12px; 
+  border: 2px red solid; 
+  padding:2px; 
+  background-color: #F08080; 
+  margin-bottom: 10px;
+  margin-top:10px;	
+}
+
+.api-settings-saved {
+  font-size: 12px; 
+  border: 2px #1EA1CC solid;
+  padding:2px;
+  background-color: #2EA2CC; 
+  color: white;"	
+}	
+
+.s5partnerSignupFormClose {
+  text-align: right; 
+  margin-top: -5px;
+  float: right;	
+}
+
+.s5partnerSignupCursor {
+  cursor: pointer; 
+  width:20px;
+}
+
+.s5partnerSignupFormHeader {
+  margin-top: 0px; 
+  text-align: center;	
+}
+
+.s5partnerSignupFormNameHeader {
+  font-size: 14px;	
+}
+
+.s5partnerSignupFormNameText {
+  width:220px; 
+}
+
+.s5partnerSignupFormHttps {
+  display: inline-block; 
+  width:50px;	
+}
+
+.s5partnerSignupFormHttpsWrap {
+  display: inline-block; 
+  position: relative; 	
+}
+
+#s5partnercheckerloader {
+  display: none; 
+  position: absolute; 
+  top: 6px; 
+  z-index:10000; 
+  right:6px;	
+}
+
+.s5spinner {
+  width:18px; 
+  padding-bottom: 4px;	
+}
+
+.s5partnerSignupSubDomain {
+  width: 300px;	
+}
+
+.s5partnerSignupDomain {
+  display: inline-block; 
+  width:90px;
+}	
+
+.s5PartnerSignupError {
+  display: none; 
+  font-size: 10px; 
+  border: 2px red solid; 
+  padding:2px; 
+  background-color: #F08080; 
+  margin-top:10px;	
+}
+
+
+.s5-update-nag {
+  padding: margin-top:0px;	
+}
+
+.s5partnerSignupFormInner {
+  position: relative;	
+}
+
+.s5partnerSignupFormEmail {
+  font-size: 14px;	
+}
+
+.s5partnerSignupFormUsername {
+  width:445px; 	
+}
+
+#partnererrormsgMail {
+  display:none; 
+  font-size: 10px; 
+  border: 2px red solid; 
+  padding:2px; 
+  background-color: #F08080; 
+  margin-top:10px;	
+}
+
+.s5partnerSignupFormHidden {
+ height: 1px; 
+ display: none;	
+}
+
+.s5partnerSignupFormButton {
+  width: 100%; 
+  text-align: center; 
+  margin-bottom: 0px;	
+}
+
+.s5-welcome-panel {
+  vertical-align: top; 
+  width: 53%; 
+  display: inline-block;
+}
+
+.log-session {
+  style=max-width: 600px; 
+  vertical-align: top; 
+  width: 53%; 
+  display: inline-block;  
+}
+
+.s5-button-danger {
+  style="float: right;	
+}
+
+#logsContainer {
+  margin-top: 20px; 
+  margin-bottom: 20px;	
+}
+
+
+.loaderpiece
+{
+  min-width: 7px;
+  max-width: 7px;
+  height: 25px;
+  margin-right: 3px;
+  background-color: #0D8ABD;
+  border: 1px solid #efefef;
+  display: inline-block;
+}
+
+#linksshowmessage {
+  display: none; 
+  width:100%;
+  text-align: center;	
+}
+
+#showlinks {
+ display: block;	
+}
